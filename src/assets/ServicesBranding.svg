@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="322" height="322" viewBox="0 0 322 322">
+  <g id="Branding" transform="translate(-1228 -7311)">
+    <circle id="Ellipse_28" data-name="Ellipse 28" cx="161" cy="161" r="161" transform="translate(1228 7311)" fill="#cee1ff"/>
+    <g id="Layer_8" transform="translate(1258.925 7367.585)">
+      <path id="Path_889" data-name="Path 889" d="M101.915,0A101.915,101.915,0,1,1,0,101.915,101.915,101.915,0,0,1,101.915,0Z" transform="translate(28.16 2.5)" fill="#f1d0ff" stroke="#1d1d1b" stroke-width="5"/>
+      <path id="Path_891" data-name="Path 891" d="M66.371,0A66.371,66.371,0,1,1,0,66.371,66.371,66.371,0,0,1,66.371,0Z" transform="translate(63.705 38.143)" fill="#f1d0ff" stroke="#1d1d1b" stroke-width="5"/>
+      <path id="Path_890" data-name="Path 890" d="M27.808,0H227.342a27.808,27.808,0,1,1,0,55.617H27.808A27.808,27.808,0,0,1,27.808,0Z" transform="translate(2.5 79.562)" fill="#f1d0ff" stroke="#1d1d1b" stroke-width="5"/>
+      <path id="Path_885" data-name="Path 885" d="M45.869,107.79l2.879,5.839,6.44.933-4.664,4.547,1.1,6.413-5.758-3.032-5.758,3.032,1.094-6.413-4.655-4.547,6.44-.933Z" transform="translate(-3.51 -10.855)" fill="#1d1d1b"/>
+      <path id="Path_886" data-name="Path 886" d="M240.079,107.79l2.879,5.839,6.44.933-4.655,4.547,1.094,6.413-5.758-3.032-5.758,3.032,1.094-6.413-4.655-4.547,6.44-.933Z" transform="translate(-23.533 -10.855)" fill="#1d1d1b"/>
+      <g id="Group_69" data-name="Group 69" transform="translate(67.866 86.181)">
+        <text id="BRAND" transform="translate(0 29.238)" fill="#1d1d1b" font-size="35" font-family="Rockabye-Regular, Rockabye"><tspan x="0" y="0">BRAND</tspan></text>
+        <line id="Line_7" data-name="Line 7" x2="39.347" transform="translate(1.076 36.674)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="5"/>
+        <line id="Line_8" data-name="Line 8" x2="60.021" transform="translate(62.209 36.674)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="5"/>
+        <text id="TM" transform="translate(119.512 6)" fill="#1d1d1b" font-size="8" font-family="Helvetica"><tspan x="0" y="0">TM</tspan></text>
+      </g>
+      <path id="Path_887" data-name="Path 887" d="M136.433,14.8A88.417,88.417,0,0,0,70.942,43.779a5.85,5.85,0,0,0,1,8.808h0a5.813,5.813,0,0,0,7.561-.888,76.753,76.753,0,0,1,56.917-25.23,78.338,78.338,0,0,1,58.711,27.275,5.83,5.83,0,0,0,8.18.735h0a5.836,5.836,0,0,0,.744-8.251,88.458,88.458,0,0,0-67.626-31.409Z" transform="translate(-6.896 -1.268)" fill="#1d1d1b"/>
+      <path id="Path_888" data-name="Path 888" d="M138.4,212.415a88.417,88.417,0,0,0,65.492-28.979,5.85,5.85,0,0,0-1-8.808h0a5.813,5.813,0,0,0-7.561.888,76.753,76.753,0,0,1-56.917,25.23A78.338,78.338,0,0,1,79.7,173.471a5.83,5.83,0,0,0-8.18-.735h0a5.836,5.836,0,0,0-.744,8.251A88.458,88.458,0,0,0,138.4,212.4Z" transform="translate(-6.897 -17.413)" fill="#1d1d1b"/>
+    </g>
+  </g>
+</svg>
