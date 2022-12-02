@@ -1,0 +1,68 @@
+.container {
+    padding-top: 10vh;
+    background-repeat: no-repeat;
+}
+
+.title {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-weight: 1500;
+    font-size: 2em;
+    grid-area: title;
+}
+
+.text {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    word-wrap: break-word;
+    width: 50vw;
+    position: absolute;
+    font-weight: 1000;
+    font-size: 1.5em;
+    grid-area: text;
+}
+
+.left {
+    padding-right: 70vw;
+    padding-left: 30vw;
+    grid-template-areas: "mockups title"
+    "mockups text"
+    "mockups links";
+}
+
+.right {
+    padding-left: 70vw;
+    padding-right: 30vw;
+    grid-template-areas: "title mockups"
+    "text mockups"
+    "links mockups";
+}
+
+.mockupContainer {
+    position: relative;
+    grid-area: mockups;
+}
+
+.mockup_1, .mockup_2 {
+    position: absolute;
+    width: 10vw;
+}
+
+.mockup_1 {
+    z-index: 1;
+    top: 10%;
+}
+.mockup_2 {
+    z-index: 2;
+    top: 20%;
+    right: 30%;
+}
+
+.background {
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+    width: 100vw;
+    position: relative;
+    z-index: 0;
+}
