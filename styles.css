@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     font-weight: 1000;
-    cursor: url(http://www.zingerbugimages.com/cursors/linked_women__blinking_rainbow.ani), url(http://www.zingerbug.com/cursors/cursors/linked_women__blinking_rainbow.gif), progress !important;
 }
 
 /* width */
@@ -178,6 +177,7 @@ nav a:hover {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     white-space: normal;
+    text-align: center;
 }
 
 .portfolio h2 {
@@ -215,6 +215,7 @@ nav a:hover {
     position:absolute;
     top:0;
     left:0;
+    pointer-events: none;
 } 
 
 .browse {
