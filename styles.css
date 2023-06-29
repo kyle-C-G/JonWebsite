@@ -1,5 +1,284 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap');
 
+@media (max-width:320px)  {
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+   .jobs {
+       font-size: 0.4em;
+   }
+
+   .mainPage {
+       padding-top: 20vw;
+   }
+
+   .contentWrapper {
+       margin-top: 5vh;
+       margin-bottom: 10vh !important;
+   }
+
+   .smallLogo {
+       width: 18%;
+       padding-left: 5vw;
+       padding-top: 3vh;
+       padding-bottom: 3vh;
+   }
+
+   .portfolio h2 {
+       font-size: 48px;
+       margin-top: 10vh;
+   }
+
+   .mainLogo {
+       height: 40vh;
+   }
+
+   .infoText {
+       font-size: 1em;
+   }
+
+   .portfolio h2 {
+    font-size: 1.5em;
+    }
+}
+
+@media (min-width:320px)  {
+     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    .jobs {
+        font-size: 0.6em;
+    }
+
+    .mainPage {
+        padding-top: 25vw;
+    }
+
+    .contentWrapper {
+        margin-top: 5vh !important;
+        margin-bottom: 20vh !important;
+    }
+
+    .smallLogo {
+        width: 18%;
+        padding-left: 5vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+
+    .portfolio h2 {
+        font-size: 48px;
+        margin-top: 10vh;
+    }
+
+    .mainLogo {
+        height: 20vh;
+    }
+
+    .infoText {
+        font-size: 1em;
+    }
+
+    .portfolio h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width:480px)  { 
+    /* smartphones, Android phones, landscape iPhone */ 
+    .jobs {
+        font-size: 0.8em;
+    }
+
+    .mainPage {
+        padding-top: 5vw;
+    }
+
+    .contentWrapper {
+        padding-top: 0vh;
+        margin-bottom: 20vh;
+    }
+
+    .smallLogo {
+        width: 10vw;
+        padding-left: 5vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    .portfolio h2 {
+        font-size: 48px;
+        margin-top: 15vh;
+    }
+
+    .mainLogo {
+        height: 40vh;
+    }
+
+    .infoText {
+        font-size: 1em;
+    }
+
+    .portfolio h2 {
+        font-size: 1.5em;
+    }
+}
+@media (min-width:600px)  { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+    .jobs {
+        font-size: 1.2em;
+    }
+
+    .mainPage {
+        padding-top: 20vw;
+    }
+
+    .contentWrapper {
+        margin-top: 10vh !important;
+        margin-bottom: 10vh !important;
+    }
+
+    .smallLogo {
+        width: 18%;
+        padding-left: 5vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+
+    .portfolio h2 {
+        font-size: 48px;
+        margin-top: 10vh;
+    }
+
+    .mainLogo {
+        height: 20vh;
+    }
+
+    .infoText {
+        font-size: 1.5em;
+    }
+
+    .portfolio h2 {
+        font-size: 2.5em;
+    }
+}
+@media (min-width:801px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .jobs {
+        font-size: 1.5em;
+    }
+
+    .mainPage {
+        padding-top: 10vw;
+    }
+
+    .contentWrapper {
+        margin-top: 5vh !important;
+        margin-bottom: 10vh !important;
+    }
+
+    .smallLogo {
+        width: 18%;
+        padding-left: 5vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+
+    .portfolio h2 {
+        font-size: 48px;
+        margin-top: 10vh;
+    }
+
+    .mainLogo {
+        height: 30vh;
+    }
+
+    .infoText {
+        width: 80% !important;
+        font-size: 1.5em;
+    }
+
+    .portfolio h2 {
+        font-size: 3em;
+    }
+}
+
+@media (min-width:1025px) { 
+    /* big landscape tablets, laptops, and desktops */ 
+    .jobs {
+        font-size: 1.7em;
+    }
+    
+    .mainPage {
+        padding-top: 15vw;
+    }
+
+    .contentWrapper {
+        padding-top: 0vh;
+        margin-bottom: 20vh;
+    }
+
+    .smallLogo {
+        width: 10vw;
+        padding-left: 5vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    .portfolio h2 {
+        font-size: 48px;
+        margin-top: 15vh;
+    }
+
+    .mainLogo {
+        height: 40vh;
+    }
+
+    .infoText {
+        font-size: 1em;
+    }
+
+    .portfolio h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width:1280px) { 
+    /* hi-res laptops and desktops */ 
+    .jobs {
+        font-size: 1.7em;
+    }
+    
+    .mainPage {
+        padding-top: 20vh;
+    }
+
+    .contentWrapper {
+        padding-top: 0vh;
+        margin-bottom: 20vh;
+    }
+
+    .smallLogo {
+        width: 10vw;
+        padding-left: 5vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    .portfolio h2 {
+        font-size: 48px;
+        margin-top: 15vh;
+    }
+
+    .mainLogo {
+        height: 40vh;
+    }
+
+    .infoText {
+        font-size: 2em;
+    }
+
+    .portfolio h2 {
+        font-size: 4em;
+    }
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
@@ -36,7 +315,7 @@ body {
 nav {
     width: 100vw;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     height: 70px;
     z-index: 100;
@@ -51,7 +330,6 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    padding-right: 10vw;
 }
 
 nav li {
@@ -79,17 +357,11 @@ nav a:hover {
     transition-delay: 0.10s;
 }
 
-.mainPage {
-    padding-top: 15vw;
-}
-
 .mainLogo {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 40vh;
-    margin-bottom: 15vh;
 }
 
 .mainLogo img {
@@ -102,7 +374,6 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     padding: 0;
-    padding-top: 15qvh;
     margin: 0 auto;
 }
 
@@ -110,15 +381,7 @@ nav a:hover {
     background-color: #e6e6e6;
     width: 80vw;
     border-radius: 20px;
-    margin-bottom: 20vh;
-    box-shadow: 0px 8px 10px #000;
-}
-
-.smallLogo {
-    width: 10vw;
-    padding-left: 5vw;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    box-shadow: 0 8px 18px -4px rgba(0,0,0,.65);
 }
 
 .banner {
@@ -167,13 +430,11 @@ nav a:hover {
     padding-top: 5vw;
     display: flex;
     justify-content: center;
-    padding-bottom: 5vw;
 }
 
 .infoText {
     width: 65%;
-    margin: 0 auto; 
-    font-size: 20px;
+    margin: 0 auto;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     white-space: normal;
@@ -182,8 +443,6 @@ nav a:hover {
 
 .portfolio h2 {
     text-align: center;
-    font-size: 48px;
-    margin-top: 15vh;
 }
 
 .portfolioImages {

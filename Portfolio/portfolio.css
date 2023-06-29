@@ -1,5 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap');
 
+@media (min-width:320px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    .contentText {
+        font-size: 0.5em !important;
+        width: 100% !important;
+    }
+
+    .header h1 {
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        font-size: 3em !important;
+    }
+    
+    .contentWrapper {
+        padding: 0;
+        padding-top: 15vh;
+        margin: 0 auto;
+    }
+    
+    .content {
+        width: 80vw !important;
+        margin-bottom: 10vh;
+        padding: 5vw;
+        padding-right: 15vw !important;
+    }
+}
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1000px) { 
+    /* hi-res laptops and desktops */ 
+    .contentText {
+        font-size: 1em !important;
+        width: 100% !important;
+    }
+
+    .header h1 {
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        font-size: 3em !important;
+    }
+    
+    .contentWrapper {
+        padding: 0;
+        padding-top: 15vh;
+        margin: 0 auto;
+    }
+    
+    .content {
+        width: 80vw !important;
+        margin-bottom: 10vh;
+        padding: 5vw;
+        padding-right: 5vw !important;
+    }
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
@@ -36,7 +93,7 @@ body {
 nav {
     width: 100vw;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     height: 70px;
     z-index: 100;
@@ -51,7 +108,6 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    padding-right: 10vw;
 }
 
 nav li {
@@ -106,7 +162,7 @@ nav a:hover {
     margin-bottom: 10vh;
     display: flex;
     padding: 5vw;
-    box-shadow: 0px 5px 10px #000;
+    box-shadow: 0 8px 18px -4px rgba(0,0,0,.65);
 }
 
 .content img {
