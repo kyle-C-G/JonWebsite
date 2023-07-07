@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JonUX Creative</title>
     <link rel="stylesheet" href="../page.css" class="styles" />
+    <link rel="stylesheet" href="../../../modal.css" class="stylesheet" />
+    <link rel="script" href="../../../popup.js" />
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -34,7 +36,7 @@
         z-index: 2000;
       "
     ></div>
-    <nav class="navbar">
+    <nav id="navbar" class="navbar">
       <ul>
         <li class="homeButton">
           <a href="/">Home</a>
@@ -53,7 +55,18 @@
         </div>
         <section class="contentWrapper">
           <div class="content">
-            <img class="unjoinedImage" src="../Assets/MaynoothMockup.jpg">
+            <img class="unjoinedImage popup" src="../Assets/MaynoothMockup.jpg">
+            <!-- The Modal -->
+            <div class="modal">
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content"/>
+
+              <!-- Modal Caption (Image Text) -->
+              <div class="caption"></div>
+            </div>
             <div>
               <p class="contentText">
                 <b>Brief:</b> Maynooth Furniture is a new business selling affordable high-end design
@@ -63,10 +76,43 @@
               <p class="contentText">
                 <b>Persona:</b> Katherine is an executive at the local offices of an international medical device company. She earns a salary of $110,000 per year. She has children at University. She’s both style & price conscious. Katherine is updating the furniture at the 4 bedroom family home. The update in furniture is following the slow remodelling of the house now that her kids have left for university.She loves to browse style guides online. She uses Pinterest to gather her design ideas.
               </p>
-              <img class="mockup" src="../Assets/MaynoothHomepage.jpg">
-              <img class="mockup" src="../Assets/MaynoothCategory.jpg">
+              <img class="mockup popup" src="../Assets/MaynoothHomepage.jpg">
+              <!-- The Modal -->
+              <div class="modal">
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content"/>
+
+                <!-- Modal Caption (Image Text) -->
+                <div class="caption"></div>
+              </div>
+              <img class="mockup popup" src="../Assets/MaynoothCategory.jpg">
+              <!-- The Modal -->
+              <div class="modal">
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content"/>
+
+                <!-- Modal Caption (Image Text) -->
+                <div class="caption"></div>
+              </div>
               <br/>
-              <img class="mockup" src="../Assets/MaynoothProduct.jpg"/>
+              <img class="mockup popup" src="../Assets/MaynoothProduct.jpg"/>
+              <!-- The Modal -->
+              <div class="modal">
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content"/>
+
+                <!-- Modal Caption (Image Text) -->
+                <div class="caption"></div>
+              </div>
             </div>
           </div>
         </section>
@@ -77,5 +123,6 @@
       <p>Caerphilly Business Park,</p>
       <p>Van Rd, Caerphilly CF83 3GG</p>
     </footer>
+    <script type="text/javascript" src="../../../popup.js"></script>
   </body>
 </html>

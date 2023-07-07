@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JonUX Creative</title>
     <link rel="stylesheet" href="../page.css" class="styles" />
+    <link rel="stylesheet" href="../../../modal.css" class="stylesheet" />
+    <link rel="script" href="../../../popup.js" />
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -34,7 +36,7 @@
         z-index: 2000;
       "
     ></div>
-    <nav class="navbar">
+    <nav id="navbar" class="navbar">
       <ul>
         <li class="homeButton">
           <a href="/">Home</a>
@@ -53,14 +55,58 @@
         </div>
         <section class="contentWrapper">
           <div class="content">
-            <img class="unjoinedImage" src="../Assets/FittLifeCover2.jpg">
-            <img class="unjoinedImage" src="../Assets/FittLifeLogo.jpg">
+            <img class="unjoinedImage popup" src="../Assets/FittLifeCover2.jpg">
+            <!-- The Modal -->
+            <div class="modal">
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content"/>
+
+              <!-- Modal Caption (Image Text) -->
+              <div class="caption"></div>
+            </div>
+            <img class="unjoinedImage popup" src="../Assets/FittLifeLogo.jpg">
+            <!-- The Modal -->
+            <div class="modal">
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content"/>
+
+              <!-- Modal Caption (Image Text) -->
+              <div class="caption"></div>
+            </div>
             <div>
               <p class="contentText">
                 For my freelance project, I was asked to design a new logo and brand for a fitness trainer - FittLife ltd. I designed  my outcome based around the theme of "life" with the use of the green colour palette, and played around with typography for the letters 'F' and 'L' on the weights. The choice of green was implemented to broaden its target audience, and to reflect the message of good health and progression.
               </p>
-              <img class="unjoinedImage" src="../Assets/FittLifeCover.jpg">
-              <img class="unjoinedImage" src="../Assets/FittLifeBusinessCards.jpg">
+              <img class="unjoinedImage popup" src="../Assets/FittLifeCover.jpg">
+              <!-- The Modal -->
+              <div class="modal">
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content"/>
+
+                <!-- Modal Caption (Image Text) -->
+                <div class="caption"></div>
+              </div>
+              <img class="unjoinedImage popup" src="../Assets/FittLifeBusinessCards.jpg">
+              <!-- The Modal -->
+              <div class="modal">
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content"/>
+
+                <!-- Modal Caption (Image Text) -->
+                <div class="caption"></div>
+              </div>
             </div>
           </div>
         </section>
@@ -71,5 +117,6 @@
       <p>Caerphilly Business Park,</p>
       <p>Van Rd, Caerphilly CF83 3GG</p>
     </footer>
+    <script type="text/javascript" src="../../../popup.js"></script>
   </body>
 </html>

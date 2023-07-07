@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JonUX Creative</title>
     <link rel="stylesheet" href="../page.css" class="styles" />
+    <link rel="stylesheet" href="../../../modal.css" class="stylesheet" />
+    <link rel="script" href="../../../popup.js" />
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -34,7 +36,7 @@
         z-index: 2000;
       "
     ></div>
-    <nav class="navbar">
+    <nav id="navbar" class="navbar">
       <ul>
         <li class="homeButton">
           <a href="/">Home</a>
@@ -53,7 +55,18 @@
         </div>
         <section class="contentWrapper">
           <div class="content">
-            <img class="unjoinedImage" src="../Assets/PearlEats.webp">
+            <img class="unjoinedImage popup" src="../Assets/PearlEats.webp">
+            <!-- The Modal -->
+            <div class="modal">
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content"/>
+
+              <!-- Modal Caption (Image Text) -->
+              <div class="caption"></div>
+            </div>
             <div>
               <p class="contentText">
                 <b>Pearl Eats</b> - a conceptual Food delivery app that specialises in Filipino Cuisine for mobile.
@@ -73,5 +86,6 @@
       <p>Caerphilly Business Park,</p>
       <p>Van Rd, Caerphilly CF83 3GG</p>
     </footer>
+    <script type="text/javascript" src="../../../popup.js"></script>
   </body>
 </html>
