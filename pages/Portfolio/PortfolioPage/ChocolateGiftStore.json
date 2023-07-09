@@ -1,0 +1,116 @@
+{
+    "pageHeader": "Chocolate Gift Store",
+    "pageDate": "August, 2021",
+    "pageContent": [
+        {
+            "type": "h2",
+            "content": "Brief"
+        },
+        {
+            "type": "p",
+            "content": "Chocolate Gift Store is an online-based company that sells custom chocolate gifts to people in the United Kingdom. Chocolate Gift Store advertises on social media and uses its website as a sales platform. The company's prime business model is to design and produce craft Chocolate gifts that are based on a variety of themes and trends. Easter, Halloween, and Christmas are seasonal sales dominators but the company wants to create advertising campaigns to promote gifts for birthdays and anniversaries."
+        },
+        {
+            "type": "h2",
+            "content": "Example Products"
+        },
+        {
+            "type": "imageGrid",
+            "content": [
+                {
+                    "url": "/PageImages/CGiftExample1.jpg"
+                },
+                {
+                    "url": "/PageImages/CGiftExample2.jpg"
+                },
+                {
+                    "url": "/PageImages/CGiftExample3.jpg"
+                },
+                {
+                    "url": "/PageImages/CGiftExample4.jpg"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "content": "Goal"
+        },
+        {
+            "type": "p",
+            "content": "The Goal is to design a brand image around this Chocolate gift shop that targets a broad demographic which includes a logo, web design, and a brand personality."
+        },
+        {
+            "type": "h2",
+            "content": "Process"
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/CGiftMindmap1.jpg"
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/CGiftMindmap2.jpg"
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/CGiftMoodboard1.jpg"
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/CGiftMoodboard2.png"
+        },
+        {
+            "type": "p",
+            "content": "Because of the D.I.Y and handmade nature of the products, I was inspired to dwell into 1970s punk designs from the likes of Vivienne Westwood and Punk rock fanzines. The \"swear chocolate bars\" also reflect the edgy and rebellious attitude of punk rock as a whole."
+        },
+        {
+            "type": "h2",
+            "content": "Final Options"
+        },
+        {
+            "type": "imageGridSquare",
+            "content": [
+                {
+                    "url": "/PageImages/CGiftOption1.png"
+                },
+                {
+                    "url": "/PageImages/CGiftOption2.png"
+                },
+                {
+                    "url": "/PageImages/CGiftOption3.png"
+                },
+                {
+                    "url": "/PageImages/CGiftOption4.png"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "content": "Web Design"
+        },
+        {
+            "type": "h3",
+            "content": "Development"
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/CGiftScreen1.jpg"
+        },
+        {
+            "type": "p",
+            "content": "The punk and D.I.Y aesthetics and imagery fit in perfectly with the swear chocolate bars, as a thought during my design process."
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/CGiftScreen2.jpg"
+        },
+        {
+            "type": "h2",
+            "content": "Final Product"
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/CGiftScreen3.png"
+        }
+    ]
+}

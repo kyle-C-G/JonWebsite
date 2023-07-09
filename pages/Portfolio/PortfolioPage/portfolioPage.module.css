@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap');
+
+@media (min-width:320px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    .lowResImageContainer {
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        padding-bottom: 2vh;
+        width: 70vw !important;
+    }
+
+    .lowResImage {
+        object-fit: cover;
+        width: 100%;
+    }
+}
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1000px) { 
+    /* hi-res laptops and desktops */ 
+
+}
+
+.selectedButton {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.mainPage {
+    padding-top: 10vw;
+}
+
+.headerContainer {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vh;
+}
+
+.header h1 {
+    text-align: left;
+    margin-bottom: 5vh;
+    font-size: 3em;
+}
+
+.contentWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.content {
+    background-color: #e6e6e6;
+    width: 80vw;
+    padding: 5vw;
+    border-radius: 20px;
+    margin-bottom: 10vh;
+    box-shadow: 0 8px 18px -4px rgba(0,0,0,.65);
+}

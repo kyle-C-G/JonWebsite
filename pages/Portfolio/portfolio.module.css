@@ -1,0 +1,196 @@
+@media (min-width:320px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    .contentText {
+        font-size: 1em !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .contentText p {
+        margin-top: 10% !important;
+        padding-top: 0% !important;
+    }
+
+    .header h1 {
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        font-size: 3em !important;
+    }
+    
+    .contentWrapper {
+        padding: 0;
+        padding-top: 0vh !important;
+        margin-top: 2.5vh !important;
+        margin: 0 auto;
+    }
+    
+    .content {
+        width: 90vw !important;
+        margin-bottom: 10vh;
+        padding: 5vw;
+        padding-right: 15vw !important;
+        display: list-item !important;
+        justify-content: center !important;
+        list-style: none;
+    }
+
+    .content img {
+        display: flex !important;
+        justify-self: center !important;
+        width: 100% !important;
+        margin-right: 5vw !important;
+        margin-left: 5vw !important;
+        margin-bottom: 2vh !important;
+    }
+
+    .contentText h2 {
+        margin-bottom: 0vh !important;
+        padding-bottom: 0vh !important;
+    }
+}
+@media (min-width:600px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+        /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    .contentWrapper {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 0 !important;
+        padding-top: 15vh !important;
+        margin: 0 auto !important;
+    }
+
+    .content {
+        background-color: #e6e6e6;
+        width: 80vw !important;
+        border-radius: 20px !important;
+        margin-bottom: 10vh !important;
+        display: flex !important;
+        padding: 5vw !important;
+        box-shadow: 0 8px 18px -4px rgba(0,0,0,.65);
+    }
+
+    .content img {
+        object-fit: cover;;
+        max-width: 100% !important;
+        height: 50% !important;
+        margin: auto 0 !important;
+        display: flex !important;
+        justify-self: center !important;
+        width: 50% !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        margin-bottom: auto !important;
+    }
+
+    .contentText {
+        padding-left: 5vw !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .contentText p {
+        margin: 5vh auto;
+    }
+}
+@media (min-width:1000px) { 
+    /* hi-res laptops and desktops */ 
+    .contentText {
+        font-size: 1em !important;
+        width: 100% !important;
+    }
+
+    .header h1 {
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        font-size: 3em !important;
+    }
+    
+    .contentWrapper {
+        padding: 0;
+        padding-top: 15vh;
+        margin: 0 auto;
+    }
+    
+    .content {
+        width: 80vw !important;
+        margin-bottom: 10vh;
+        padding: 5vw;
+        padding-right: 5vw !important;
+    }
+}
+
+.selectedButton {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.mainPage {
+    padding-top: 5vw;
+}
+
+.header h1 {
+    text-align: center;
+    margin-bottom: 10vh;
+    font-size: 5em;
+}
+
+.contentWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-top: 15vh;
+    margin: 0 auto;
+}
+
+.content {
+    background-color: #e6e6e6;
+    width: 80vw;
+    border-radius: 20px;
+    margin-bottom: 10vh;
+    display: flex;
+    padding: 5vw;
+    box-shadow: 0 8px 18px -4px rgba(0,0,0,.65);
+}
+
+.content img {
+    object-fit: cover;
+    width: 50%;
+    max-width: 100%;
+    height: 50%;
+    margin: auto 0;
+    border-radius: 10px;
+    box-shadow: 0px 1.2px 2.5px #000;
+}
+
+.contentText {
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentText p {
+    margin: 5vh auto;
+    font-weight: 400;
+}
+
+.contentText a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 7.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 150px;
+    text-decoration: none;
+}

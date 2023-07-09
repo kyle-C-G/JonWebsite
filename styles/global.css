@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f9ffc5;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: hsl(66, 40%, 70%);
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(66, 40%, 60%);
+  }
+
+body {
+    background-color: #f9ffc5;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    z-index: 100;
+    background-color: #f9ffc5;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0px 5px 10px hsl(66, 80%, 80%);
+    position: fixed;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+}
+
+
+nav a:hover {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    transition-delay: 0.10s;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+footer p {
+    padding-left: 10vw;
+}

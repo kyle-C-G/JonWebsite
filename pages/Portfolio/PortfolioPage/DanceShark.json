@@ -1,0 +1,50 @@
+{
+    "pageHeader": "DanceShark",
+    "pageDate": "November, 2021",
+    "pageContent": [
+        {
+            "type": "img",
+            "content": "/PageImages/DanceSharkLaptop.jpg"
+        },
+        {
+            "type": "p",
+            "content": "DanceShark is a merchandise brand for TikToker @ardie.official The brief was to produce a brand logo and the UX Website design for the online shop."
+        },
+        {
+            "type": "h2",
+            "content": "Brand Research"
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/DanceSharkMoodboard1.png"
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/DanceSharkMoodboard2.png"
+        },
+        {
+            "type": "h2",
+            "content": "Idea Generation and Development"
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/DanceSharkMindMap.png"
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/DanceSharkIdeas.png"
+        },
+        {
+            "type": "h2",
+            "content": "Final Design"
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/DanceSharkLogo.jpg"
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/DanceSharkShirt.jpg"
+        }
+    ]
+}

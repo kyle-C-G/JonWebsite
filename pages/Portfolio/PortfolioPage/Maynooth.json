@@ -1,0 +1,30 @@
+{
+    "pageHeader": "Maynooth Furniture Store",
+    "pageDate": "March, 2022",
+    "pageContent": [
+        {
+            "type": "img",
+            "content": "/PageImages/MaynoothMockup.jpg"
+        },
+        {
+            "type": "p",
+            "content": "Brief: Maynooth Furniture is a new business selling affordable high-end design furniture made in Ireland. The brief is to build a e-commerce website for people to browse & purchase furniture for home delivery."
+        },
+        {
+            "type": "p",
+            "content": "Persona: Katherine is an executive at the local offices of an international medical device company. She earns a salary of $110,000 per year. She has children at University. She’s both style & price conscious. Katherine is updating the furniture at the 4 bedroom family home. The update in furniture is following the slow remodelling of the house now that her kids have left for university.She loves to browse style guides online. She uses Pinterest to gather her design ideas."
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/MaynoothHomepage.jpg"
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/MaynoothCategory.jpg"
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/MaynoothProduct.jpg"
+        }
+    ]
+}

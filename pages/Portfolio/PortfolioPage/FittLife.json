@@ -1,0 +1,26 @@
+{
+    "pageHeader": "FittLife - Fitness Branding",
+    "pageDate": "August, 2019",
+    "pageContent": [
+        {
+            "type": "img",
+            "content": "/PageImages/FittLifeCover2.jpg"
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/FittLifeLogo.jpg"
+        },
+        {
+            "type": "p",
+            "content": "For my freelance project, I was asked to design a new logo and brand for a fitness trainer - FittLife ltd. I designed  my outcome based around the theme of \"life\" with the use of the green colour palette, and played around with typography for the letters 'F' and 'L' on the weights. The choice of green was implemented to broaden its target audience, and to reflect the message of good health and progression."
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/FittLifeCover.jpg"
+        },
+        {
+            "type": "img",
+            "content": "/PageImages/FittLifeBusinessCards.jpg"
+        }
+    ]
+}
