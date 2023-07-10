@@ -5,14 +5,14 @@ import Image from "next/image"
 export default function Card(props) {
     let linkElement = <div></div>
     if (props.url != false) {
-        linkElement = <Link href={props.url}>View Details</Link>
+        linkElement = <Link href={`${props.url}`}>View Details</Link>
     }
 
     return (
         <article className={styles.contentWrapper}>
             <div className={styles.content}>
                 <Image 
-                    src={props.image}
+                    src={`${props.image}`}
                     height={500}
                     width={500}
                     alt={props.alt}

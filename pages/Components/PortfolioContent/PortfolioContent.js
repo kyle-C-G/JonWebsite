@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function PortfolioContent(props) {
     if (props.element.type === "img") {
-        return <Image src={props.element.content} height={1000} width={1000} alt="Image" className={styles.mockup}/>;
+        return <Image src={`${props.element.content}`} height={1000} width={1000} alt="Image" className={styles.mockup}/>;
     } 
     else if (props.element.type === "h1") {
         return <h1>{props.element.content}</h1>;
@@ -20,7 +20,7 @@ export default function PortfolioContent(props) {
     else if (props.element.type === "imageGrid") {
         let images = props.element.content.map((image, index) => (
             <div className={styles.imageGridContainer}>
-                <Image className={styles.imageGridImg} key={index} src={image.url} height={500} width={500} alt="Image" />
+                <Image className={styles.imageGridImg} key={index} src={`${image.url}`} height={500} width={500} alt="Image" />
             </div>
         ));
         return <div className={styles.imageGrid}>{images}</div>;
@@ -28,7 +28,7 @@ export default function PortfolioContent(props) {
     else if (props.element.type === "imageGridSquare") {
         let images = props.element.content.map((image, index) => (
             <div className={styles.imageGridContainerSquare}>
-                <Image className={styles.imageGridSquareImg} key={index} src={image.url} height={500} width={500} alt="Image" />
+                <Image className={styles.imageGridSquareImg} key={index} src={`${image.url}`} height={500} width={500} alt="Image" />
             </div>
         ));
         return <div className={styles.imageGridSquare}>{images}</div>;
