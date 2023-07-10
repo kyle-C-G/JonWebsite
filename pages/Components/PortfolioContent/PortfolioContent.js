@@ -2,6 +2,10 @@ import styles from "./portfolioContent.module.css";
 import Image from "next/image";
 
 export default function PortfolioContent(props) {
+    if (!props.element || !props.element.type) {
+        return null;
+      }
+
     if (props.element.type === "img") {
         return <Image src={`${props.element.content}`} height={1000} width={1000} alt="Image" className={styles.mockup}/>;
     } 
